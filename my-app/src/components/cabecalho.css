@@ -1,0 +1,39 @@
+/* src/components/Cabecalho.css */
+.cabecalho {
+    background-color: #282c34;
+    color: white;
+    width: 100vw;
+    padding: 1em 0em 1em 0em;
+    text-align: center;
+   
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cabecalho p{
+    padding-left: 1em;
+  }
+
+  .cabecalho nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cabecalho nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .cabecalho nav ul li a, p a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .cabecalho nav ul li a:hover, p a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
